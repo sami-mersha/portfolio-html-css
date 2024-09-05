@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
 
 html {
-  background: #101418;
+  background: #424874;
 }
 
 * {
@@ -9,7 +9,7 @@ html {
   margin: 0;
   list-style: none;
   text-decoration: none;
-  color: #fff;
+  color: #F4EEFF;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
@@ -25,7 +25,7 @@ html {
 }
 
 button {
-  background: #1a53ff;
+  background: #424874;
   border: none;
   border-radius: 5px;
   padding: 5px 12px;
@@ -61,7 +61,7 @@ button {
   width: 180px;
   height: 180px;
   border-radius: 9999px;
-  border: 5px solid #1a53ff;
+  border: 5px solid #424874;
 }
 
 h2 {
@@ -71,6 +71,7 @@ h2 {
 
 /* ABOUT */
 .about-wrapper,
+.certification-wrapper,
 .project-wrapper,
 .socials-wrapper {
   max-width: 1000px;
@@ -109,6 +110,31 @@ h2 {
   margin: 7px;
   margin-left: 0;
   font-weight: 500;
+}
+
+/* CERTIFICATIONS */
+.certifications ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.certifications ul li {
+  background: #181f26;
+  margin: 13px;
+  margin-left: 0;
+  padding: 10px;
+  border-radius: 15px;
+  width: 300px;
+}
+
+.certifications span{
+  color: #A6B1E1;
+}
+
+.certifications ul li img {
+  border-radius: 15px;
+  margin-bottom: 17px;
+  width: 100%;
 }
 
 /* PROJECTS */
@@ -162,6 +188,10 @@ h2 {
   .about-wrapper .skills {
     margin-left: 0;
     margin-top: 100px;
+  }
+
+  .certifications ul li {
+    width: 100%;
   }
 
   .projects ul li {
